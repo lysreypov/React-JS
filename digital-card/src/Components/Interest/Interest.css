@@ -1,0 +1,7 @@
+.interest {
+  padding-bottom: 35px;
+}
+
+.interest > span {
+  opacity: 0.5;
+}

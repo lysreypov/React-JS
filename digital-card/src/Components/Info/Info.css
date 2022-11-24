@@ -1,0 +1,65 @@
+:root {
+  --color-black: #0c0c0d;
+  --color-white: #f9f9f9;
+  --color-mint: #80ddc2;
+}
+
+.info {
+  width: 100%;
+}
+
+.info .info--photo img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.info .info--profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  line-height: 30px;
+}
+
+.info .info--profile > span {
+  opacity: 0.5;
+}
+
+.info .info--profile > a {
+  text-decoration: none;
+  color: var(--color-white);
+  opacity: 0.5;
+}
+
+.info .info--contact {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info .info--contact > a {
+  padding: 8px 0;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px 10px;
+}
+
+.info .info--contact_email {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.info .info--contact_linkedin {
+  background-color: var(--color-mint);
+  color: var(--color-white);
+}
+
+.email--icon,
+.linkedin--icon {
+  font-size: 1.3rem;
+}

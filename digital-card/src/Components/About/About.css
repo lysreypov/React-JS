@@ -1,0 +1,7 @@
+.about {
+  padding: 30px 0;
+}
+
+.about > span {
+  opacity: 0.5;
+}

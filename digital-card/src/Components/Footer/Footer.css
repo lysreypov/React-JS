@@ -1,0 +1,28 @@
+:root {
+  --color-white: #f9f9f9;
+  --color-black: #17202a;
+}
+
+.footer {
+  background-color: var(--color-black);
+  border-radius: 0 0 10px 10px;
+}
+
+.footer > ul {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer > ul > li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.footer > ul > li > a {
+  color: var(--color-white);
+  opacity: 0.5;
+}

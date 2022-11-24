@@ -1,0 +1,16 @@
+:root {
+  --color-grey: #1c2833;
+  --color-white: #f9f9f9;
+}
+
+.container {
+  width: 400px;
+  background-color: var(--color-grey);
+  border-radius: 10px 10px;
+  color: var(--color-white);
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}

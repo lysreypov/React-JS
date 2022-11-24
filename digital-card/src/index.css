@@ -1,0 +1,17 @@
+:root {
+  --color-drakgrey: #232324;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-drakgrey);
+}

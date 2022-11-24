@@ -12,7 +12,7 @@ function Info() {
       <div className="info--profile">
         <h2>Ly Sreypov</h2>
         <span>Frontend Developer</span>
-        <a href="#">lysreypov.website</a>
+        <a href="#">lysreypov.khs</a>
       </div>
       <div className="info--contact">
         <a
